@@ -5,6 +5,8 @@
 #include "utility.h"
 #include "asnsym.h"
 
+struct symmetry_t symmetry = {0};
+
 double TOLER = 0.002;
 double TOL2 = 0.00002;
 
