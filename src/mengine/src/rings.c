@@ -4,6 +4,8 @@
 #include "rings.h"
 #include "utility.h"
 
+struct t_rings rings = {0};
+
 int have_ring3(void);
 int have_ring4(void);
 int have_ring5(void);
