@@ -95,7 +95,6 @@ void    SetupLocalDCT _ANSI_ARGS_((char *charPtr));
 void    SetupWriteDistortions _ANSI_ARGS_((char *charPtr));
 void    SetupLaplace _ANSI_ARGS_((void));
 void    CalcLambdas  _ANSI_ARGS_((void));
-void    Mpost_UnQuantZigBlockLaplace _ANSI_ARGS_((FlatBlock in, Block out, int qscale, boolean iblock));
 
 /* define this as it too much of a pain to find toupper on different arch'es */
 #define ASCII_TOUPPER(c) ((c>='a') && (c<='z')) ? c-'a'+'A' : c
