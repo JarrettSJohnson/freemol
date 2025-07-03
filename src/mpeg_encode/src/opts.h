@@ -110,6 +110,7 @@ extern int LaplaceNum, LaplaceCnum;
 extern boolean BSkipBlocks;
 
 /* Procedures Prototypes */
+void    Mpost_UnQuantZigBlockLaplace _ANSI_ARGS_((FlatBlock in, Block out, int qscale, boolean iblock));
 int	GetIQScale _ANSI_ARGS_((void));
 int	GetPQScale _ANSI_ARGS_((void));
 int	GetBQScale _ANSI_ARGS_((void));
